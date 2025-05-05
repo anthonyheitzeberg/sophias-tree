@@ -32,5 +32,12 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     }
+  },
+  nitro: {
+    firebase: {
+        nodeVersion: "20",
+        gen: 2,
+    },
+    preset: "firebase"
   }
 })
