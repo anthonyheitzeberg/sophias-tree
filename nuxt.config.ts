@@ -34,6 +34,10 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'static',
-  },
+    firebase: {
+        nodeVersion: "20",
+        gen: 2,
+    },
+    preset: "firebase"
+  }
 })
